@@ -1,7 +1,5 @@
 """
-CP1404 Prac 1 Jack Kerlin
-Fixed version of broken program
-"""
+CP1404 Prac 2 Jack Kerlin"""
 
 
 import random
@@ -19,6 +17,7 @@ def check_score(score):
         return "Passable"
     else:
         return "Bad"
+
 
 
 main()

@@ -1,5 +1,5 @@
 """
-CP1404 Prac 1 Jack Kerlin
+CP1404 Prac 2 Jack Kerlin
 """
 
 
@@ -11,10 +11,10 @@ Q - Quit"""
     choice = input(">>> ").upper()
     while choice != "Q":
         if choice == "C":
-            fahrenheit = convert_c_to_f()
+            fahrenheit = convert_c_to_f(float(input("Celsius: ")))
             print(f"Result: {fahrenheit:.2f} F")
         elif choice == "F":
-            celsius = convert_f_to_c()
+            celsius = convert_f_to_c(float(input("Fahrenheit: ")))
             print(f"Result: {celsius:.2f} C")
         else:
             print("Invalid option")
@@ -23,12 +23,10 @@ Q - Quit"""
     print("Thank you.")
 
 
-def convert_f_to_c():
-    fahrenheit = float(input("Fahrenheit: "))
+def convert_f_to_c(fahrenheit):
     return (fahrenheit - 32) * 5 / 9
 
-def convert_c_to_f():
-    celsius = float(input("Celsius: "))
+def convert_c_to_f(celsius):
     return celsius * 9.0 / 5 + 32
 
 
