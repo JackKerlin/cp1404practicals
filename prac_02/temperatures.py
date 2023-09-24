@@ -11,10 +11,12 @@ Q - Quit"""
     choice = input(">>> ").upper()
     while choice != "Q":
         if choice == "C":
-            fahrenheit = convert_c_to_f(float(input("Celsius: ")))
+            celsius = float(input("Celsius: "))
+            fahrenheit = convert_c_to_f(celsius)
             print(f"Result: {fahrenheit:.2f} F")
         elif choice == "F":
-            celsius = convert_f_to_c(float(input("Fahrenheit: ")))
+            fahrenheit = float(input("Fahrenheit: "))
+            celsius = convert_f_to_c(fahrenheit)
             print(f"Result: {celsius:.2f} C")
         else:
             print("Invalid option")
