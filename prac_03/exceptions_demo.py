@@ -21,6 +21,7 @@ print("Finished.")
 2. If the denominator input is 0
 3. Error check the denominator input until it isn't 0
 """
+# code with error check
 numerator = int(input("Enter the numerator: "))
 denominator = int(input("Enter the denominator: "))
 while denominator == 0:

@@ -30,7 +30,7 @@ for i, number in enumerate(numbers, 1):
 # Use f-string formatting to produce the output:
 # 1922 Gibson L-5 CES for about $16,035!
 
-
+# program 1
 print(f"{year} {name} for about ${cost:,.0f}!")
 
 
@@ -41,5 +41,6 @@ print(f"{year} {name} for about ${cost:,.0f}!")
 # 100
 # 150
 
+# program 2
 for i in range(0, 4):
     print("{:>3}".format(i * 50))

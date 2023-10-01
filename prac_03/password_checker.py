@@ -1,11 +1,11 @@
 """
-CP1404/CP5632 - Practical
-Password checker "skeleton" code to help you get started
+CP1404 Prac 3 Jack Kerlin
 """
+
 
 MIN_LENGTH = 2
 MAX_LENGTH = 6
-SPECIAL_CHARS_REQUIRED = True
+SPECIAL_CHARS_REQUIRED = False
 SPECIAL_CHARACTERS = "!@#$%^&*()_-=+`~,./'[]<>?{}|\\"
 
 
@@ -40,11 +40,11 @@ def is_valid_password(password):
     for char in password:
         if char.islower():
             count_lower += 1
-        if char.isupper():
+        elif char.isupper():
             count_upper += 1
-        if char.isdigit():
+        elif char.isdigit():
             count_digit += 1
-        if char in SPECIAL_CHARACTERS:
+        elif char in SPECIAL_CHARACTERS:
             count_special += 1
 
     # if any of the 'normal' counts are zero, return False

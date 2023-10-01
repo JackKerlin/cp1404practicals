@@ -11,4 +11,5 @@ so 3 is the smallest that could be generated but 10 can't, so 9 is the largest. 
 print(random.uniform(2.5, 5.5))  # line 3
 """this code generates random floats to 16 decimal places from 2.5 to 5.5, which both could have been randomly generated
 so they are the smallest and largest possible"""
+# random number from 1 to 100
 print(random.uniform(1,100))
