@@ -10,6 +10,7 @@ def main():
     print(data)
     print_data(data)
 
+
 def get_data():
     """Read data from file formatted like: subject,lecturer,number of students."""
     input_file = open(FILENAME)
@@ -26,6 +27,7 @@ def get_data():
         data.append(parts)
     input_file.close()
     return data
+
 
 def print_data(subject_details):
     for subject in subject_details:
