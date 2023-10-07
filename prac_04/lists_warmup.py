@@ -1,5 +1,5 @@
 """
-CP1404 Prac 3 Jack Kerlin
+CP1404 Prac 4 Jack Kerlin
 """
 
 numbers = [3, 1, 4, 1, 5, 9, 2]
