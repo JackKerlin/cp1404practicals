@@ -27,8 +27,8 @@ def get_data():
     input_file.close()
     return data
 
-def print_data(details):
-    for detail in details:
-        print(f"{detail[0]} is taught by {detail[1]:<12} and has {detail[2]:>3} students")
+def print_data(subject_details):
+    for subject in subject_details:
+        print(f"{subject[0]} is taught by {subject[1]:<12} and has {subject[2]:>3} students")
 
 main()
