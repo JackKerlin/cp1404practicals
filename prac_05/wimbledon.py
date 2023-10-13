@@ -39,7 +39,8 @@ def count_champions(lines):
 def count_countries(lines):
     countries = set()
     # adds countries to set, set automatically ignores duplicates
-    [countries.add(line[COUNTRY_INDEX]) for line in lines]
+    for line in lines:
+        countries.add(line[COUNTRY_INDEX])
     return sorted(countries)
 
 
