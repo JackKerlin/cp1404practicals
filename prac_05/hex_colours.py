@@ -7,7 +7,6 @@ COLOUR_TO_CODE = {"Acid Green": "#b0bf1a", "Aqua": "##00ffff", "Dark Violet": "#
                   "Linen": "#faf0e6"}
 
 colour = input("Enter colour: ").lower().title()
-print(colour)
 while colour != "":
     try:
         print(f"{colour} code is {COLOUR_TO_CODE[colour]}")

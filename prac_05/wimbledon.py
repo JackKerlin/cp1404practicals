@@ -24,7 +24,7 @@ def format_file():
     with open(FILENAME, "r", encoding="utf-8-sig") as in_file:
         lines = in_file.readlines()
         # returns a list of lists
-        return [line.split(',') for line in lines]
+        return [line.strip().split(',') for line in lines]
 
 
 def count_champions(lines):
