@@ -15,4 +15,4 @@ while email != "":
     else:
         emails_to_name[email] = input("Enter name: ")
     email = input("Email: ")
-[print(f"{emails_to_name[email]} ({email})") for email in emails_to_name.keys()]
+print("\n".join([f"{emails_to_name[email]} ({email})" for email in emails_to_name.keys()]))

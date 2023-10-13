@@ -14,10 +14,10 @@ def main():
     del lines[0]  # delete header
     champions_to_count = count_champions(lines)
     print("Wimbledon Champions: ")
-    # list comp to replace for loop
-    [print(f"{champion} {champions_to_count[champion]}") for champion in champions_to_count]
+    # join list comp to print out champs
+    print("\n".join([f"{champion} {champions_to_count[champion]}" for champion in champions_to_count]))
     countries = count_countries(lines)
-    print(f"These {len(countries)} have won Wimbledon:\n" + ", ".join(countries))
+    print(f"These {len(countries)} countries have won Wimbledon:\n" + ", ".join(countries))
 
 
 def format_file():
