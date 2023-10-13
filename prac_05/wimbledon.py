@@ -7,6 +7,7 @@ Actual: 40 minutes
 
 def main():
     with open("wimbledon.csv", "r", encoding="utf-8-sig") as in_file:
+        # makes a list of lists
         lines = format_file(in_file)
         del lines[0]
         champions_to_count = count_champions(lines)
