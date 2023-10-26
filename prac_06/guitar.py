@@ -1,11 +1,12 @@
 """
 CP1404 Prac 6 Jack Kerlin
-estimate (for just guitar.py): 15 min
-actual:  min
+estimate (for guitar and guitar_test): 15 min
+actual: 14 min
 """
 
-class ProgrammingLanguage:
-    def __init__(self, name, year, cost):
+class Guitar:
+    """Represent a guitar object"""
+    def __init__(self, name="", year=0, cost=0):
         self.name = name
         self.year = year
         self.cost = cost
@@ -18,7 +19,7 @@ class ProgrammingLanguage:
         return 2023 - self.year
 
     def is_vintage(self):
-        if self.get_age(self) >= 50:
+        if self.get_age() >= 50:
             return True
         else:
             return False
