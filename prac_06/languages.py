@@ -1,7 +1,7 @@
 """
 CP1404 Prac 6 Jack Kerlin
 estimate: 30 min
-actual:
+actual: 20 min
 """
 
 from prac_06.programming_language import ProgrammingLanguage

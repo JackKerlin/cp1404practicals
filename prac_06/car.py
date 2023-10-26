@@ -2,6 +2,7 @@
 CP1404 Prac 6 Jack Kerlin
 """
 
+
 class Car:
     """Represent a Car object."""
 
@@ -13,12 +14,14 @@ class Car:
         self.fuel = fuel
         self._odometer = 0
 
+    def __str__(self):
+        """Returns string w/ name, fuel and odometer."""
+        return f"{self.name}, fuel={self.fuel}, odometer={self._odometer}"
+
     def add_fuel(self, amount):
         """Add amount to the car's fuel."""
         self.fuel += amount
 
-    def __str__(self):
-        return f"{self.name}, fuel={self.fuel}, odometer={self._odometer}"
     def drive(self, distance):
         """Drive the car a given distance.
 
