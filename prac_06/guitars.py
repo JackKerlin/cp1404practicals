@@ -27,4 +27,5 @@ guitar_name_width = max([len(guitar.name) for guitar in guitars])
 guitar_cost_width = max([len(f"{guitar.cost:,.2f}") for guitar in guitars])
 for i, guitar in enumerate(guitars):
     vintage_string = " (vintage)" if guitar.is_vintage() else ""
-    print(f"Guitar {i}: {guitar.name:>{guitar_name_width}} ({guitar.year}), worth ${guitar.cost:>{guitar_cost_width},.2f}{vintage_string}")
+    print(f"Guitar {i}: {guitar.name:>{guitar_name_width}} ({guitar.year}), "
+          f"worth ${guitar.cost:>{guitar_cost_width},.2f}{vintage_string}")

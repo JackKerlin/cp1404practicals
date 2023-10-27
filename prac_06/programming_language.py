@@ -2,6 +2,7 @@
 CP1404 Prac 6 Jack Kerlin
 """
 
+
 class ProgrammingLanguage:
     def __init__(self, name, typing, reflection, year):
         self.name = name
@@ -10,7 +11,7 @@ class ProgrammingLanguage:
         self.year = year
 
     def __str__(self):
-        return f"{self.name}, {self.typing} Typing, Reflection={self.reflection}, First appearing in {self.year}"
+        return f"{self.name}, {self.typing} Typing, Reflection={self.reflection}, First appeared in {self.year}"
 
     def is_dynamic(self):
         if self.typing == "Dynamic":
