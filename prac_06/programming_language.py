@@ -4,6 +4,7 @@ CP1404 Prac 6 Jack Kerlin
 
 
 class ProgrammingLanguage:
+    """Represent a Programming Language object"""
     def __init__(self, name, typing, reflection, year):
         self.name = name
         self.typing = typing
