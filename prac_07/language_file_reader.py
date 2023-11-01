@@ -25,6 +25,7 @@ def main():
         # print(parts)  # debugging
         # Reflection is stored as a string (Yes/No) and we want a Boolean
         reflection = parts[2] == "Yes"
+        # Same for Pointer Arithmetic
         pointer_arithmetic = parts[4] == "Yes"
         # Construct a ProgrammingLanguage object using the elements
         # year should be an int
