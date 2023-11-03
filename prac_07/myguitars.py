@@ -1,7 +1,7 @@
 """
 CP1404 Prac 7 Jack Kerlin
-estimate (for guitar and guitar_test):
-actual:
+estimate (for guitar and guitar_test): 30 mins
+actual: 50 mins
 """
 
 from guitar import Guitar
