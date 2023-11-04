@@ -2,6 +2,7 @@
 CP1404 Prac 7 Jack Kerlin
 Estimate: ~3 hours
 Actual: 2.5 hours
+Menu to load, save, display, add and edit projects
 """
 
 import datetime
@@ -68,7 +69,6 @@ def load_project(file_name, projects):
     # readline to remove header
     in_file.readline()
     parts = [line.strip().split('	') for line in in_file]
-    print(parts)
     in_file.close()
     projects += [
         Project(part[0], datetime.datetime.strptime(part[1], "%d/%m/%Y").date(), int(part[2]), float(part[3]),
@@ -121,13 +121,14 @@ def get_percentage(input_message):
             number = int(input(input_message))
             if number < 0:
                 print("Percentage must be >= 0.")
-            if number > 100:
+            elif number > 100:
                 print("Percentage must be <= 100.")
             else:
                 is_valid_input = True
         except ValueError:
             print("Invalid input, enter a valid integer.")
     return number
+
 
 def get_text(input_message):
     """Return a non-blank string"""
