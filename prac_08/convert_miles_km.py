@@ -30,7 +30,7 @@ class MilesKmConverterApp(App):
         """Set output as calculated result"""
         miles = self.convert_to_float(text)
         result = miles * CONVERSION_FACTOR
-        self.output_text = str(result)
+        self.output_text = f"{result:.5f}"
 
     @staticmethod
     def convert_to_float(text):
