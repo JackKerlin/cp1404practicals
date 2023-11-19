@@ -1,6 +1,6 @@
 """
-CP1404 Practical
-Unreliable Car class
+CP1404 Practical Jack Kerlin
+Unreliable Car class inherited from Car
 """
 
 from car import Car

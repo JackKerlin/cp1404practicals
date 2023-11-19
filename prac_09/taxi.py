@@ -1,6 +1,6 @@
 """
-CP1404/CP5632 Practical
-Car class
+CP1404 Practical Jack Kerlin
+Taxi class inherited from Car
 """
 from prac_09.car import Car
 

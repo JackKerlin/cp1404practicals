@@ -1,4 +1,7 @@
-"""Band example with list of musicians."""
+"""
+CP1404 Practical Jack Kerlin
+Band class tests
+"""
 from band import Band
 from musician import Musician
 from guitar import Guitar
@@ -17,6 +20,7 @@ def main():
     kevin = Musician("Kevin Figueiredo")
     band.add(kevin)
 
+    print(repr(band))
     print("band (str)")
     print(band)
     print("band.play()")

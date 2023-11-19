@@ -1,4 +1,7 @@
-"""Musician class for CP1404"""
+"""
+CP1404 Practical Jack Kerlin
+Musician class
+"""
 
 
 class Musician:

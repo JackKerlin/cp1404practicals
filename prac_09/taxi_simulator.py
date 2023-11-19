@@ -1,4 +1,6 @@
-"""CP1404 Practical
+"""
+CP1404 Practical Jack Kerlin
+Program to simulate series of taxi rides
 """
 from prac_09.taxi import Taxi
 from prac_09.silver_service_taxi import SilverServiceTaxi

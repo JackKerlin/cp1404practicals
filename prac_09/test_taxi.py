@@ -1,6 +1,6 @@
 """
-CP1404/CP5632 Practical
-Testing taxi class
+CP1404 Practical Jack Kerlin
+Taxi class tests
 """
 
 from taxi import Taxi
