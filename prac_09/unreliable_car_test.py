@@ -2,6 +2,7 @@
 CP1404 Practical Jack Kerlin
 Unreliable Car class tests
 """
+
 from unreliable_car import UnreliableCar
 
 # Test 95% reliable car
