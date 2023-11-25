@@ -6,8 +6,6 @@ Actual: 30 minutes
 """
 
 import wikipedia
-print(wikipedia.languages())
-
 user_search = input("Enter Wikipedia search: ")
 while user_search != "":
     try:
