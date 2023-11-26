@@ -10,4 +10,4 @@ The code reviews definitely were useful. They exposed me to some good or novel w
 
 ## What would I change
 
-Maybe the code reviews could start a prac or two earlier in the course since I felt they were a useful part. 
+I felt the content of the practicals was great at helping me internalise the learning material, so I wouldn't change anything there. Maybe starting the code reviews a prac or two earlier could be good, since I feel they pretty good at helping me learn.
